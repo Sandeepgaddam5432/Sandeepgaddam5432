@@ -32,6 +32,17 @@ for (let page = 1; page <= 10; page++) {
   if (batch.length < 100) break;
 }
 
+for (const repo of repos) {
+  if (repo.size !== 0) continue;
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${encodeURIComponent(user)}/${encodeURIComponent(repo.name)}/git/trees/${encodeURIComponent(repo.branch)}?recursive=1`,
+      { headers },
+    );
+    if (res.status === 409) repo.empty = true;
+  } catch (_) {}
+}
+
 const out = path.join(root, "public/extensions/github-repo-provider/repos-snapshot.json");
 fs.writeFileSync(out, JSON.stringify({ user, at: new Date().toISOString(), repos }, null, 2) + "\n");
 console.log(`[snapshot] ${repos.length} repos for ${user} -> ${out}`);

@@ -172,6 +172,7 @@ class GitHubData {
   }
 
   async loadTree(user, repo) {
+    if (repo.empty) return buildTree([]);
     // trees are cached for an hour so reloads do not burn the anonymous 60 req/h GitHub API quota
     const cacheKey = `tree:${user}/${repo.name}@${repo.branch}`.toLowerCase();
     const cached = this.ctx.globalState.get(cacheKey);
@@ -190,6 +191,7 @@ class GitHubData {
         this.warnOnce(`trunc:${user}/${repo.name}`, `Repository "${repo.name}" is very large - the file list is truncated.`);
       }
     } catch (apiError) {
+      if (apiError.status === 409) return buildTree([]);
       try {
         const data = await getJson(
           `${JSDELIVR}/${encodeURIComponent(user)}/${encodeURIComponent(repo.name)}@${encodeURIComponent(
