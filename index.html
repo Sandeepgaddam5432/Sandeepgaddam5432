@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Code" />
+    <meta name="theme-color" content="#1f1f1f" />
+    <!-- build-time GitHub user (VITE_GITHUB_USERNAME or GITHUB_USERNAME); ?user= in the URL wins -->
+    <meta name="github-username" content="%VITE_GITHUB_USERNAME%" />
+    <title>GitHub Repos - Visual Studio Code for the Web</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: #1f1f1f;
+      }
+      #boot {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        font-size: 13px;
+        color: #9d9d9d;
+        z-index: 0;
+      }
+    </style>
+  </head>
+  <body aria-label="">
+    <div id="boot"><span id="boot-status">Starting Visual Studio Code...</span></div>
+    <!--
+      Official VS Code Web (vscode-web) is vendored in /public (out/, extensions/, node_modules/) and
+      bootstrapped by boot.js. The script is injected dynamically so the bundler leaves it untouched.
+    -->
+    <script>
+      (function () {
+        var s = document.createElement("script");
+        s.src = "./boot.js";
+        document.body.appendChild(s);
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+# Root build/dependency folders (do NOT ignore the vendored runtime under public/)
+/node_modules
+/dist
+/.shots
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# Local deployment archives
+*.zip
+.DS_Store

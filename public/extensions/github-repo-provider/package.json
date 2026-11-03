@@ -1,0 +1,77 @@
+{
+  "name": "github-repo-provider",
+  "displayName": "GitHub Repo Provider",
+  "description": "Mounts every public repository of a GitHub user as a native workspace folder (read-only) and ships an in-browser web shell.",
+  "version": "1.0.0",
+  "publisher": "vscode-pages",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": ["Other"],
+  "extensionKind": ["web"],
+  "browser": "./extension.js",
+  "activationEvents": [
+    "onFileSystem:ghrepo",
+    "onTerminalProfile:ghrepo.shell",
+    "onCommand:ghrepo.switchUser",
+    "onStartupFinished"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": { "supported": true },
+    "virtualWorkspaces": true
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "ghrepo.switchUser",
+        "title": "Switch GitHub User...",
+        "category": "GitHub Repos",
+        "icon": "$(account)"
+      },
+      {
+        "command": "ghrepo.refresh",
+        "title": "Refresh Repositories",
+        "category": "GitHub Repos",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "ghrepo.openOnGitHub",
+        "title": "Open Current File on GitHub",
+        "category": "GitHub Repos",
+        "icon": "$(github)"
+      },
+      {
+        "command": "ghrepo.openShell",
+        "title": "Open GitHub Shell",
+        "category": "GitHub Repos",
+        "icon": "$(terminal)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "ghrepo.openOnGitHub",
+          "when": "resourceScheme == ghrepo",
+          "group": "navigation"
+        }
+      ],
+      "explorer/context": [
+        {
+          "command": "ghrepo.openOnGitHub",
+          "when": "resourceScheme == ghrepo",
+          "group": "navigation@99"
+        }
+      ]
+    },
+    "terminal": {
+      "profiles": [
+        {
+          "id": "ghrepo.shell",
+          "title": "GitHub Shell",
+          "icon": "github"
+        }
+      ]
+    }
+  }
+}

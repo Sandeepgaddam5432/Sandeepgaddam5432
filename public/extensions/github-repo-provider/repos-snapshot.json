@@ -1,0 +1,686 @@
+{
+  "user": "Sandeepgaddam5432",
+  "at": "2026-11-03T08:14:48.893Z",
+  "repos": [
+    {
+      "name": "zero-mock-vs-code-workbench",
+      "branch": "main",
+      "description": "Zero-mock VS Code web workbench portfolio",
+      "fork": false,
+      "archived": false,
+      "size": 4627
+    },
+    {
+      "name": "remote-desktop-workflows",
+      "branch": "main",
+      "description": "Complete GitHub Actions workflows for Windows RDP, macOS VNC, and Linux Desktop access via Cloudflare tunnels",
+      "fork": true,
+      "archived": false,
+      "size": 194
+    },
+    {
+      "name": "Sandeepgaddam5432",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 3
+    },
+    {
+      "name": "UnQEdit",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 0
+    },
+    {
+      "name": "web-demos",
+      "branch": "gh-pages",
+      "description": "White-label website demos — clinic, gym and realty builds",
+      "fork": false,
+      "archived": false,
+      "size": 4539
+    },
+    {
+      "name": "remotion",
+      "branch": "main",
+      "description": "🎥      Make videos programmatically with React",
+      "fork": true,
+      "archived": false,
+      "size": 4001204
+    },
+    {
+      "name": "blitz_",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 30794
+    },
+    {
+      "name": "autobatch-extension",
+      "branch": "main",
+      "description": "Open-source Chrome extension to batch-run prompts and auto-download AI media. Adapter-based, multi-platform (Meta.ai first). Local-only, no data collection.",
+      "fork": false,
+      "archived": false,
+      "size": 1156
+    },
+    {
+      "name": "blitz",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 193709
+    },
+    {
+      "name": "Meta-video",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 3759
+    },
+    {
+      "name": "Meta-auto",
+      "branch": "master",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 225
+    },
+    {
+      "name": "OCDW-RDP",
+      "branch": "main",
+      "description": "Omniroute + Claude Desktop + Windows-RDP ",
+      "fork": false,
+      "archived": false,
+      "size": 7
+    },
+    {
+      "name": "OmniRoute",
+      "branch": "release/v3.8.50",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 330+ providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 320+ contributors",
+      "fork": true,
+      "archived": false,
+      "size": 356037
+    },
+    {
+      "name": "OpenMontage",
+      "branch": "main",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "fork": true,
+      "archived": false,
+      "size": 92573
+    },
+    {
+      "name": "UnQChat",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 38
+    },
+    {
+      "name": "UnQTube2",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 589102
+    },
+    {
+      "name": "toolhub",
+      "branch": "main",
+      "description": "Premium, 100% client-side All-in-One Utility Hub. Privacy-first: no uploads, no backend, no tracking.",
+      "fork": false,
+      "archived": false,
+      "size": 156
+    },
+    {
+      "name": "claude-tg-bridge",
+      "branch": "main",
+      "description": "Real Claude Code CLI on Telegram, powered by GLM-5.2-Plus via Z.AI proxy. Anthropic-to-OpenAI translation layer.",
+      "fork": false,
+      "archived": false,
+      "size": 46
+    },
+    {
+      "name": "puter-tools-nextjs-1700",
+      "branch": "main",
+      "description": "Next.js project — UnQWebTemplate + 1700 Puter.js tool routes. Real framework, real shadcn/ui, real Tailwind.",
+      "fork": false,
+      "archived": false,
+      "size": 2345
+    },
+    {
+      "name": "puter-tools-built-site-1700",
+      "branch": "main",
+      "description": "1700 production-ready static HTML tool pages — UnQWebTemplate design + Puter.js. 100% browser-local.",
+      "fork": false,
+      "archived": false,
+      "size": 767
+    },
+    {
+      "name": "tech-startup-template",
+      "branch": "main",
+      "description": "Modern, fully responsive tech startup landing page template. Dark theme, zero dependencies, production-ready HTML/CSS/JS.",
+      "fork": false,
+      "archived": false,
+      "size": 17
+    },
+    {
+      "name": "z-ai-autonomous",
+      "branch": "main",
+      "description": "Devin-style fully autonomous AI developer — plans, codes, deploys, and self-improves 24/7 in z.ai sandbox",
+      "fork": false,
+      "archived": false,
+      "size": 31
+    },
+    {
+      "name": "z-ai-toolkit",
+      "branch": "main",
+      "description": "Complete autonomous AI agent toolkit for z.ai sandbox — Discord, Telegram, WhatsApp bots, task queue, API proxy, cron-based 24/7 processing",
+      "fork": false,
+      "archived": false,
+      "size": 24
+    },
+    {
+      "name": "discord-autonomous-agent",
+      "branch": "main",
+      "description": "Discord autonomous agent - cron-based 24/7 task processing in z.ai sandbox",
+      "fork": false,
+      "archived": false,
+      "size": 9
+    },
+    {
+      "name": "UnQWebTemplate",
+      "branch": "main",
+      "description": "A premium, cinematic Next.js web template with 15+ pages, built with ❤️ by Sandeep Gaddam",
+      "fork": false,
+      "archived": false,
+      "size": 4528
+    },
+    {
+      "name": "portfolio",
+      "branch": "main",
+      "description": "🎬 Cinematic Developer Portfolio - Sandeep Gaddam | Next.js 16 + Framer Motion + TypeScript",
+      "fork": false,
+      "archived": false,
+      "size": 196
+    },
+    {
+      "name": "Sandeepgaddam5432.github.io",
+      "branch": "main",
+      "description": "🚀 Personal Portfolio — AI Developer & Builder | UnQ Ecosystem Creator",
+      "fork": false,
+      "archived": false,
+      "size": 0
+    },
+    {
+      "name": "UnQVidGen",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 27212
+    },
+    {
+      "name": "cloud-workstation",
+      "branch": "main",
+      "description": "☁️ Cloud Development Workstation via GitHub Actions - Linux, Windows, macOS",
+      "fork": false,
+      "archived": false,
+      "size": 46
+    },
+    {
+      "name": "UnQProxy-Management-Center",
+      "branch": "main",
+      "description": "UnQProxy Management Center - Premium management dashboard",
+      "fork": false,
+      "archived": false,
+      "size": 3173
+    },
+    {
+      "name": "UnQProxy",
+      "branch": "main",
+      "description": "UnQProxy - A powerful multi-provider AI proxy server",
+      "fork": false,
+      "archived": false,
+      "size": 8566
+    },
+    {
+      "name": "UnQ-AI-WorkFlow",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 59
+    },
+    {
+      "name": "UnQBot",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 33717
+    },
+    {
+      "name": "NanoBot-Android",
+      "branch": "main",
+      "description": "Nanobot is a personal AI assistant inspired by OpenClaw. It delivers core agent functionality in just ~4,000 lines of code—99% smaller than alternatives, making it perfect for mobile devices.",
+      "fork": true,
+      "archived": false,
+      "size": 3
+    },
+    {
+      "name": "cloud-workstation-repo",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 16
+    },
+    {
+      "name": "system-prompts-and-models-of-ai-tools",
+      "branch": "main",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "fork": true,
+      "archived": false,
+      "size": 1343
+    },
+    {
+      "name": "zphisher",
+      "branch": "master",
+      "description": "An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit !",
+      "fork": true,
+      "archived": false,
+      "size": 29376
+    },
+    {
+      "name": "cloudflare-geotracker-pro",
+      "branch": "main",
+      "description": "📍 Production-ready geolocation tracking system with Cloudflare Tunnel | Real-time location sharing via trycloudflare URLs | Modern UI with device info capture | Termux optimized | Built with Flask + HTML5 Geolocation API",
+      "fork": false,
+      "archived": false,
+      "size": 37
+    },
+    {
+      "name": "cloudflare-location-tracker",
+      "branch": "main",
+      "description": "Production-ready location tracking system using Cloudflare Tunnel with modern web interface - Termux compatible",
+      "fork": false,
+      "archived": false,
+      "size": 2
+    },
+    {
+      "name": "modded-distro",
+      "branch": "main",
+      "description": "Install Full Ubuntu Desktop Easily in Termux",
+      "fork": true,
+      "archived": false,
+      "size": 2645
+    },
+    {
+      "name": "FreeVPS",
+      "branch": "main",
+      "description": "",
+      "fork": true,
+      "archived": false,
+      "size": 32
+    },
+    {
+      "name": "Un",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 18
+    },
+    {
+      "name": "gemini-browser",
+      "branch": "main",
+      "description": "Try the new Gemini Computer Use model on Browserbase. ",
+      "fork": true,
+      "archived": false,
+      "size": 38855
+    },
+    {
+      "name": "Remote-Desktop-Connection",
+      "branch": "main",
+      "description": "This GitHub Action sets up a remote desktop environment using Ngrok on Windows.",
+      "fork": true,
+      "archived": false,
+      "size": 7
+    },
+    {
+      "name": "unq-ai-gateway-24949-72373",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 655
+    },
+    {
+      "name": "bolt.new",
+      "branch": "main",
+      "description": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz",
+      "fork": true,
+      "archived": false,
+      "size": 1082
+    },
+    {
+      "name": "Void",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 858
+    },
+    {
+      "name": "modded-ubuntu",
+      "branch": "master",
+      "description": "Run Ubuntu GUI on your termux with much features.",
+      "fork": true,
+      "archived": false,
+      "size": 1037
+    },
+    {
+      "name": "Workflow",
+      "branch": "master",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "fork": true,
+      "archived": false,
+      "size": 247903
+    },
+    {
+      "name": "pagezero",
+      "branch": "main",
+      "description": "",
+      "fork": true,
+      "archived": false,
+      "size": 1273
+    },
+    {
+      "name": "UnQDroid",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 30002
+    },
+    {
+      "name": "Apktool",
+      "branch": "master",
+      "description": "A tool for reverse engineering Android apk files",
+      "fork": true,
+      "archived": false,
+      "size": 333755
+    },
+    {
+      "name": "supabase",
+      "branch": "master",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "fork": true,
+      "archived": false,
+      "size": 1921552
+    },
+    {
+      "name": "UnQHype",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 218621
+    },
+    {
+      "name": "dyad",
+      "branch": "main",
+      "description": "Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!",
+      "fork": true,
+      "archived": false,
+      "size": 21513
+    },
+    {
+      "name": "AhMyth-RAT",
+      "branch": "dependabot/npm_and_yarn/AhMyth-Server/app/angular-1.8.0",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 60406
+    },
+    {
+      "name": "UnQOps",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 4476
+    },
+    {
+      "name": "AionUi",
+      "branch": "main",
+      "description": "Free, local, open-source GUI app for Gemini CLI — Enhance Chat Experience, Multi-tasking, Code Diff View, File & Project Management, and more | 🌟 Star if you like it!",
+      "fork": true,
+      "archived": false,
+      "size": 7611
+    },
+    {
+      "name": "notebooks",
+      "branch": "main",
+      "description": "100+ Fine-tuning LLM Notebooks on Google Colab, Kaggle, and more.",
+      "fork": true,
+      "archived": false,
+      "size": 38720
+    },
+    {
+      "name": "AIRAVAT",
+      "branch": "main",
+      "description": "A multifunctional Android RAT with GUI based Web Panel without port forwarding.",
+      "fork": true,
+      "archived": false,
+      "size": 13585
+    },
+    {
+      "name": "n8n",
+      "branch": "ado-2878-2_fix_connections",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 706961
+    },
+    {
+      "name": "anything",
+      "branch": "master",
+      "description": "The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.",
+      "fork": true,
+      "archived": false,
+      "size": 48403
+    },
+    {
+      "name": "UnQBase",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 37826
+    },
+    {
+      "name": "open-lovable",
+      "branch": "main",
+      "description": "🔥 Clone and recreate any website as a modern React app in seconds",
+      "fork": true,
+      "archived": false,
+      "size": 251
+    },
+    {
+      "name": "UnQStudio",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 37727
+    },
+    {
+      "name": "UnQCode",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 1994
+    },
+    {
+      "name": "UnQCoder",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 38524
+    },
+    {
+      "name": "UnQDev",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 38384
+    },
+    {
+      "name": "ShortGPT",
+      "branch": "RayVentura-patch-1",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 4583
+    },
+    {
+      "name": "Travel-Camping-Landing--NextJS-Frontend",
+      "branch": "main",
+      "description": "A modern, responsive, and feature-rich travel and camping web application built with Next.js, React, and Tailwind CSS. This project provides a beautiful UI/UX for exploring camping destinations, viewing features, and guiding users through an engaging journey experience.",
+      "fork": true,
+      "archived": false,
+      "size": 5965
+    },
+    {
+      "name": "Sandeep-AI",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 0
+    },
+    {
+      "name": "unq-content-flow",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 340
+    },
+    {
+      "name": "unqcreator",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 4934
+    },
+    {
+      "name": "UnQTube2.0",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 0
+    },
+    {
+      "name": "unqvision2",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 222
+    },
+    {
+      "name": "UnQTube-",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 242
+    },
+    {
+      "name": "unq-video-genesis",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 173
+    },
+    {
+      "name": "unqvision-genesis-flow",
+      "branch": "main",
+      "description": "",
+      "fork": false,
+      "archived": false,
+      "size": 262
+    },
+    {
+      "name": "cursor-termux",
+      "branch": "main",
+      "description": "This repository contains a shell installer script designed especially for Android environments (using Termux) to set up the Cursor AI Code Editor effortlessly.",
+      "fork": true,
+      "archived": false,
+      "size": 244
+    },
+    {
+      "name": "ubuntu-on-android",
+      "branch": "modified",
+      "description": "Run Ubuntu with pre-installed Desktop Environments in android/termux with ease! Everything is preinstalled so just download install and done🚀🚀",
+      "fork": true,
+      "archived": false,
+      "size": 73467
+    },
+    {
+      "name": "unqsec",
+      "branch": "master",
+      "description": "Android RAT with GUI based Web Panel without port forwarding. you can use it from any device",
+      "fork": true,
+      "archived": false,
+      "size": 17699
+    },
+    {
+      "name": "DogeRat",
+      "branch": "main",
+      "description": "A multifunctional Telegram based Android RAT without port forwarding. ",
+      "fork": true,
+      "archived": false,
+      "size": 16761
+    },
+    {
+      "name": "UnQChat3.0",
+      "branch": "main",
+      "description": "The ultimate mobile chat app. This project brings you the closest experience to WhatsApp, crafted with the power of Flutter and Firebase. With features like real-time conversations, efficient media transmission, voice messaging, and robust security, we've recreated the essence of WhatsApp while adding our unique touch.",
+      "fork": true,
+      "archived": false,
+      "size": 21687
+    },
+    {
+      "name": "termux-desktop",
+      "branch": "master",
+      "description": "Setup A Beautiful Desktop/GUI In Termux",
+      "fork": true,
+      "archived": false,
+      "size": 83153
+    },
+    {
+      "name": "Rafel-Rat",
+      "branch": "main",
+      "description": "",
+      "fork": true,
+      "archived": false,
+      "size": 135019
+    }
+  ]
+}
